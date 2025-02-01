@@ -4,7 +4,7 @@ header {
   width: 100%;
   height: 60px;
   position: relative;
-  background-color: #fff;
+  background-color: vars.$card-bg-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +39,7 @@ header {
   &__item {
     font-size: 12px;
     text-decoration: none;
-    color: var(--color);
+    color: vars.$color;
     height: 60px;
     line-height: 60px;
     display: inline-block;
